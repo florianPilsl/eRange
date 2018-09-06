@@ -33,7 +33,7 @@ class Erange : AppCompatActivity() {
                   //  .commit()
 
 
-            Log.d("fragments" , "" +  supportFragmentManager.fragments.size)
+            Log.d("fragments" , "" +  supportFragmentManager.fragments[0].tag)
 
 
         }
